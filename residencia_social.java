@@ -15,13 +15,13 @@ void main() {
         println("a sua conta foi" + conta + "R$" );
     }
 
-    else if (consumo <= 30) {
+    else if (quant <= 30) {
         double conta = quant * 4.64;
 
         println("a sua conta foi" + conta + "R$" );
     }
 
-    else if (consumo <= 50) {
+    else if (quant <= 50) {
         double conta = quant * 6.62;
         println("a sua conta foi" + conta + "R$" );
     }
